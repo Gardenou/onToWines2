@@ -1,0 +1,1245 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "uoc.edu)", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines", "http://www.w3.org/2006/vcard/ns" ],
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "version" : "Version 1.0",
+    "author" : [ "Jordi Garriga Muñoz (jgarrigamoon", "2023-04-29T13:20:00" ],
+    "labels" : {
+      "undefined" : "Spanish Wines Ontology"
+    },
+    "comments" : {
+      "undefined" : "A Wine ontology that describes varieties of wines, grapes and characteristics to help describe better the wine world"
+    },
+    "other" : {
+      "versionIRI" : [ {
+        "identifier" : "versionIRI",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines/1.0",
+        "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by-sa/3.0/es/",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "2023-04-29T13:20:00",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "uoc.edu)",
+        "value" : "Jordi Garriga Muñoz (jgarrigamoon",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "Version 1.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Red",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Red"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#UnicoVegaSicilia",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "UnicoVegaSicilia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#VendimiaSeleccionada",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "VendimiaSeleccionada"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Tinto",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Tinto"
+      }
+    } ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "subClasses" : [ "8", "10" ],
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#ToroRed",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ToroRed"
+    },
+    "id" : "13",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Region",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Toro",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Toro"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Ribera_del_Duero",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Ribera_del_Duero"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Montilla-Moriles",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Montilla-Moriles"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Jumilla",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Jumilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Jerez/Xeres",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Jerez/Xeres"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Priorat",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Priorat"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Rioja",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Rioja"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Spanish region where the wine comes from"
+    },
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Wine",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://en.wikipedia.org/wiki/Wine",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Wine"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Tinto",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Tinto"
+      }
+    } ],
+    "subClasses" : [ "0", "15", "16", "17", "18" ],
+    "comment" : {
+      "undefined" : "Alcoholic drink made from fermented grapes"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Sweet",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sweet"
+    },
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Grape",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://www.langual.org/langual_thesaurus.asp?termid=A01DY",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Grape"
+    },
+    "subClasses" : [ "30", "27" ],
+    "comment" : {
+      "undefined" : "The kind of grape used to make the wine. There can be more than one kind involved in the making process"
+    },
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Rosé",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rosé"
+    },
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Aging",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aging"
+    },
+    "subClasses" : [ "34", "32", "23", "20" ],
+    "comment" : {
+      "undefined" : "Depending on the kind of aging, a wine can be labelled"
+    },
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#WhiteGrape",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WhiteGrape"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Moscatel",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Moscatel"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#PedroXImenez",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "PedroXImenez"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Palomino",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Palomino"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#verdejo",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "verdejo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Albariño",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Albariño"
+      }
+    } ],
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Cava",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cava"
+    },
+    "id" : "39",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#PedroXimenez",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PedroXimenez"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Verdejo",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Verdejo"
+    },
+    "id" : "41",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "gYear"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Reserva",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reserva"
+    },
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Type",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Type"
+    },
+    "subClasses" : [ "3", "41", "50", "39", "51", "13" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#GranReserva",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GranReserva"
+    },
+    "id" : "23",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Sparkling",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sparkling"
+    },
+    "id" : "17",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "gYear"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Winery",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Winery"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Alvaro_Palacios",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Alvaro_Palacios"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Artadi",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Artadi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Briego",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Briego"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Toro_Albala",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Toro_Albala"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Teso_La_Monja",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Teso_La_Monja"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Contino",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Contino"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Vega_Sicilia",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Vega_Sicilia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Pago_de_Carraovejas",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Pago_de_Carraovejas"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The place where the wine is produced. Every winery must have license to sell the wine produced"
+    },
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#RedGrape",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RedGrape"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Merlot",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Merlot"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#CabernetSauvignon",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "CabernetSauvignon"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Syrah",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Syrah"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Garnacha",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Garnacha"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Cariñena",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Cariñena"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Temprnaillo",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Temprnaillo"
+      }
+    } ],
+    "id" : "30",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#RiberaDelDueroRed",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiberaDelDueroRed"
+    },
+    "id" : "50",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#White",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "White"
+    },
+    "id" : "15",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#DO",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://administracion.gob.es/pag_Home/Tu-espacio-europeo/derechos-obligaciones/empresas/inicio-gestion-cierre/derechos/denominaciones-origen.html",
+        "type" : "label"
+      } ],
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/Denominaci%C3%B3n_de_origen",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DO"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#DO_Jerez",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "DO_Jerez"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#DO_Rioja",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "DO_Rioja"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#DO_Cava",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "DO_Cava"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#DO_Priorat",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "DO_Priorat"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#DO_La_Mancha",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "DO_La_Mancha"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#DO_Ribera_del_Duero",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "https://dbpedia.org/page/Ribera_del_Duero",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DO_Ribera_del_Duero"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "DO serves as a regulation brand for the wine, assuring the costumer that it has a certain quality"
+    },
+    "id" : "10",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Joven",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Joven"
+    },
+    "id" : "34",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Crianza",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Crianza"
+    },
+    "id" : "32",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Tempranillo",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tempranillo"
+    },
+    "id" : "51",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Barrel",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Barrel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Acacia",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Acacia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#AmericanOak",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "AmericanOak"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#FrenchOak",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "FrenchOak"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#Cherry",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "labels" : {
+        "IRI-based" : "Cherry"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#SpanishOak",
+      "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+      "comment" : {
+        "undefined" : "The wood characteristics of the barrel where the wine has aged"
+      },
+      "labels" : {
+        "IRI-based" : "SpanishOak"
+      }
+    } ],
+    "id" : "6"
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "56",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "58",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#agedInBarrelsMadeOf",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "agedInBarrelsMadeOf"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#produces",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "produces"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "A winery produces a wine"
+    },
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#hasNumberReviews",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasNumberReviews"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The number of reviews an individual instance of wine has"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "11"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "21",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#hasBody",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasBody"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The body score, can only have a value from 1 to 5"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "24"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "28",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "21",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "21",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "1",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "1",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "9",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#bottleAgingTime",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "bottleAgingTime"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The time the wine has been aged in the bottle (in months)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#isLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isLocatedIn"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The place where the winery is located, phisically."
+    },
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "range" : "15",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#hasPrice",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "hasPrice"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The price of the individual instance of wine"
+    },
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#alocholDegree",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "alocholDegree"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The alocholic degree of a drink"
+    },
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#isFromYear",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "isFromYear"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The year of the wine"
+    },
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#hasPrice",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "hasPrice"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The price of the individual instance of wine"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#hasReviewOf",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasReviewOf"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The wine can have a review score, based on the consumer's experience"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#hasDO",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasDO"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "range" : "16",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "15",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#isFromYear",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "isFromYear"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The year of the wine"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#alocholDegree",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "alocholDegree"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The alocholic degree of a drink"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#elaboratedWith",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "elaboratedWith"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A wine is elaborated with a mixture of grapes"
+    },
+    "attributes" : [ "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#barrelAgingTime",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "barrelAgingTime"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The time the wine has been aging in a barrel(in months)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#IsFromRegion",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "IsFromRegion"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "DEfines the region where the wine comes from; can also define the region that refers to the DO"
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "70"
+  }, {
+    "range" : "4",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines#producedBy",
+    "inverse" : "7",
+    "baseIri" : "http://www.semanticweb.org/denou/ontologies/2023/3/onToWines",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "producedBy"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Inverse to produces, a wine is produced by a winery"
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "72"
+  }, {
+    "range" : "4",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "73"
+  }, {
+    "range" : "4",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "4",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "4",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  } ]
+}
